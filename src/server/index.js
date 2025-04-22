@@ -210,7 +210,7 @@ try {
 
 console.log(`running on port ${port}`)
 
-mcpClient.connectToServer('http://localhost:3000/sse')
+mcpClient.connectToServer('http://0.0.0.0:3000/sse')
 
 
 // Graceful shutdown
